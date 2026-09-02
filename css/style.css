@@ -1,0 +1,122 @@
+   .logo {
+     color: #B89555;
+     font-size: 28px;
+     letter-spacing: 4px;
+   }
+   body {
+     background-color: #f6f1E7;
+     color: #3A302B;
+     padding: 30px;
+   }
+   .keyword {
+     font-size: 30px;
+     color: #3A302B;
+   }
+   .hero-image {
+     width: 100%;
+     max-width: 350px;
+     display: block;
+     margin: 30px auto 0;
+   }
+    .section-title {
+      font-size: 28px;
+      line-height: 1.4;
+      color: #3A302B;
+      margin-top: 30px;
+      letter-spacing: 2px;
+    }
+    .section-category {
+      font-size: 16px;
+      margin-top: 25px;
+      color: #3A302B;
+    }
+    .service-title {
+      font-size: 24px;
+      line-height: 1.4;
+      color: #3A302B;
+      margin-top: 20px;
+      letter-spacing: 2px;
+    }
+    .service-text {
+      font-size: 16px;
+      line-height: 1.8;
+      color: #3A302B;
+    }
+.services {
+  margin-top: 60px;
+  padding: 30px 20px;
+  border: 1px solid #B89555;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-left: 0;
+}
+   @media (min-width: 768px) {
+  .hero-image {
+    max-width: 600px;
+  }
+      body {max-width: 1200px;margin: 0 auto;}
+    }  
+   .service{
+      padding: 20px;
+      transition: transform 0.3s ease-in-out;
+     }  
+    .service:hover {
+      transform: translateY(-10px);
+    }
+   @media (max-width: 767px) {
+   .service+.service {
+      border-top: 1px solid #B89555;
+      }
+    }
+   .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    max-width: 480px;
+    margin-inline: auto;    
+   }  
+   .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em; 
+   }
+   .form-group label {
+    font-weight: bold;
+   }
+    .form-group input,
+    .form-group textarea {
+      padding: 0.75em;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font:inherit;
+    }
+  .contact button {
+    padding: 0.75em 2em;
+    background-color: #3A302B;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font:inherit;
+   }
+.profile{
+      margin-bottom: 100px;
+    }
+    .contact{
+      margin-top: 0;
+    }
+    .profile-text {
+      width: 600px !important;
+      max-width: 100%;
+      line-height: 1.8;
+      margin-top:30px;
+    }
+    .footer-text {
+      font-size: 14px;
+      text-align: center;
+      margin-top: 30px;
+      color: #3A302B;
+    }
